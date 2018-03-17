@@ -27,7 +27,7 @@ How to use SVG Sprites in HTML and CSS?
 
 Notice that the 4 values in viewBox attribute are x, y, width and height respectively.
 
-* To use, the image, in the html file:
+* To use the image in the html file:
 ```
 <img src="./index.svg#User-View" />
 ```
