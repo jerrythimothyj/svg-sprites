@@ -2,7 +2,7 @@
 How to use SVG Sprites in HTML and CSS?
 
 ### Implementation
-* First, lets create an SVG sprite with 2 images with <g>
+* First, lets create an SVG sprite with 2 images with *g* tag.
 
 ```
 <g id="User" transform="translate(0.000000, 0.000000)">
@@ -16,7 +16,7 @@ How to use SVG Sprites in HTML and CSS?
 
 ![alt text](http://jerrythimothy.bigjapps.com/svg-sprites/first.png?v=1)
 
-* Generally, when using sprites we use CSS to point to the exact image. But, in SVG we have the capability to display the required image just with a pointer to id with the <view>
+* Generally, when using sprites we use CSS background property to point to the exact image. But, in SVG we have the capability to display the required image just with a pointer to id with the *view* tag.
 
 ```
 <view id="User-View" viewBox="0 0 24 24" />
@@ -44,7 +44,6 @@ img {
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>SVG Sprite</title>
     <desc></desc>
     <defs></defs>
