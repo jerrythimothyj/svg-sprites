@@ -1,6 +1,8 @@
 # svg-sprites
 How to use SVG Sprites in HTML and CSS?
 
+[Demo](http://jerrythimothy.bigjapps.com/svg-sprites/) - Click the link demo of svg-sprites.
+
 ### Implementation
 * First, lets create an SVG sprite with 2 images with *g* tag.
 
